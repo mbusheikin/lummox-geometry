@@ -6,7 +6,7 @@ LMXIntPoint, LMXIntSize, LMXIntRect.
 
 History
 -------
-*Version 1.1*
+*Version 1.2*
 Fixed a few compiler warnings to do with format strings.
 
 *Version 1.0*
