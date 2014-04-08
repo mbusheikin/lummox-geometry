@@ -35,7 +35,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"(%d, %d)", self.row, self.col];
+    return [NSString stringWithFormat:@"(%zd, %zd)", self.row, self.col];
 }
 
 #pragma mark - Creating new spots

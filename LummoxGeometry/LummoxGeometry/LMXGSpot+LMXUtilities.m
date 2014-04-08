@@ -20,7 +20,7 @@
 @implementation LMXGSpot (LMXUtilities)
 
 - (NSString *)pointString {
-    return [NSString stringWithFormat:@"%d,%d", self.row, self.col];
+    return [NSString stringWithFormat:@"%zd,%zd", self.row, self.col];
 }
 
 - (BOOL)isInsideRect:(LMXIntRect *)rect {

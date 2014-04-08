@@ -29,7 +29,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"%@, (%d, %d), (%d, %d)", [super description], self.position.row, self.position.col, self.size.width, self.size.height];
+    return [NSString stringWithFormat:@"%@, (%zd, %zd), (%zd, %zd)", [super description], self.position.row, self.position.col, self.size.width, self.size.height];
 }
 
 #pragma mark - Equality

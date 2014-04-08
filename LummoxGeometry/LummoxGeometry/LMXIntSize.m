@@ -26,7 +26,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"%@, (%d, %d)", [super description], self.width, self.height];
+    return [NSString stringWithFormat:@"%@, (%zd, %zd)", [super description], self.width, self.height];
 }
 
 #pragma mark - Equality
