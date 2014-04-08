@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2748F84118EF4C9A00EE12F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F84018EF4C9A00EE12F3 /* Foundation.framework */; };
+		2748F84318EF4C9A00EE12F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F84218EF4C9A00EE12F3 /* CoreGraphics.framework */; };
+		2748F84518EF4C9A00EE12F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F84418EF4C9A00EE12F3 /* UIKit.framework */; };
+		2748F84D18EF4C9A00EE12F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F84C18EF4C9A00EE12F3 /* main.m */; };
+		2748F86018EF4C9A00EE12F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F85F18EF4C9A00EE12F3 /* XCTest.framework */; };
+		2748F86118EF4C9A00EE12F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F84018EF4C9A00EE12F3 /* Foundation.framework */; };
+		2748F86218EF4C9A00EE12F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748F84418EF4C9A00EE12F3 /* UIKit.framework */; };
+		2748F87A18EF4D8600EE12F3 /* LMXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F87718EF4D8600EE12F3 /* LMXAppDelegate.m */; };
+		2748F87B18EF4D8600EE12F3 /* LMXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F87918EF4D8600EE12F3 /* LMXViewController.m */; };
+		2748F88618EF4E0D00EE12F3 /* LMXGSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F87F18EF4E0D00EE12F3 /* LMXGSpot.m */; };
+		2748F88718EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F88118EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.m */; };
+		2748F88818EF4E0D00EE12F3 /* LMXIntRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F88318EF4E0D00EE12F3 /* LMXIntRect.m */; };
+		2748F88918EF4E0D00EE12F3 /* LMXIntSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F88518EF4E0D00EE12F3 /* LMXIntSize.m */; };
+		2748F92B18F0F43400EE12F3 /* LMXGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748F92A18F0F43400EE12F3 /* LMXGeometryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2748F86318EF4C9A00EE12F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2748F83518EF4C9A00EE12F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2748F83C18EF4C9A00EE12F3;
+			remoteInfo = LummoxGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2748F83D18EF4C9A00EE12F3 /* LummoxGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LummoxGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2748F84018EF4C9A00EE12F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2748F84218EF4C9A00EE12F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2748F84418EF4C9A00EE12F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2748F84818EF4C9A00EE12F3 /* LummoxGeometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LummoxGeometry-Info.plist"; sourceTree = "<group>"; };
+		2748F84C18EF4C9A00EE12F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2748F84E18EF4C9A00EE12F3 /* LummoxGeometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LummoxGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		2748F85E18EF4C9A00EE12F3 /* LummoxGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LummoxGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2748F85F18EF4C9A00EE12F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2748F86718EF4C9A00EE12F3 /* LummoxGeometryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LummoxGeometryTests-Info.plist"; sourceTree = "<group>"; };
+		2748F87618EF4D8600EE12F3 /* LMXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMXAppDelegate.h; sourceTree = "<group>"; };
+		2748F87718EF4D8600EE12F3 /* LMXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMXAppDelegate.m; sourceTree = "<group>"; };
+		2748F87818EF4D8600EE12F3 /* LMXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMXViewController.h; sourceTree = "<group>"; };
+		2748F87918EF4D8600EE12F3 /* LMXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMXViewController.m; sourceTree = "<group>"; };
+		2748F87D18EF4E0D00EE12F3 /* LMXGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMXGeometry.h; sourceTree = "<group>"; };
+		2748F87E18EF4E0D00EE12F3 /* LMXGSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMXGSpot.h; sourceTree = "<group>"; };
+		2748F87F18EF4E0D00EE12F3 /* LMXGSpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMXGSpot.m; sourceTree = "<group>"; };
+		2748F88018EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMXGSpot+LMXUtilities.h"; sourceTree = "<group>"; };
+		2748F88118EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LMXGSpot+LMXUtilities.m"; sourceTree = "<group>"; };
+		2748F88218EF4E0D00EE12F3 /* LMXIntRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMXIntRect.h; sourceTree = "<group>"; };
+		2748F88318EF4E0D00EE12F3 /* LMXIntRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMXIntRect.m; sourceTree = "<group>"; };
+		2748F88418EF4E0D00EE12F3 /* LMXIntSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMXIntSize.h; sourceTree = "<group>"; };
+		2748F88518EF4E0D00EE12F3 /* LMXIntSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMXIntSize.m; sourceTree = "<group>"; };
+		2748F92A18F0F43400EE12F3 /* LMXGeometryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMXGeometryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2748F83A18EF4C9A00EE12F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748F84318EF4C9A00EE12F3 /* CoreGraphics.framework in Frameworks */,
+				2748F84518EF4C9A00EE12F3 /* UIKit.framework in Frameworks */,
+				2748F84118EF4C9A00EE12F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748F85B18EF4C9A00EE12F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748F86018EF4C9A00EE12F3 /* XCTest.framework in Frameworks */,
+				2748F86218EF4C9A00EE12F3 /* UIKit.framework in Frameworks */,
+				2748F86118EF4C9A00EE12F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2748F83418EF4C9A00EE12F3 = {
+			isa = PBXGroup;
+			children = (
+				2748F84618EF4C9A00EE12F3 /* LummoxGeometry */,
+				2748F86518EF4C9A00EE12F3 /* LummoxGeometryTests */,
+				2748F83F18EF4C9A00EE12F3 /* Frameworks */,
+				2748F83E18EF4C9A00EE12F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2748F83E18EF4C9A00EE12F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2748F83D18EF4C9A00EE12F3 /* LummoxGeometry.app */,
+				2748F85E18EF4C9A00EE12F3 /* LummoxGeometryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2748F83F18EF4C9A00EE12F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2748F84018EF4C9A00EE12F3 /* Foundation.framework */,
+				2748F84218EF4C9A00EE12F3 /* CoreGraphics.framework */,
+				2748F84418EF4C9A00EE12F3 /* UIKit.framework */,
+				2748F85F18EF4C9A00EE12F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2748F84618EF4C9A00EE12F3 /* LummoxGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				2748F87518EF4D8600EE12F3 /* Example */,
+				2748F87C18EF4D8E00EE12F3 /* LummoxGeometry */,
+				2748F84718EF4C9A00EE12F3 /* Supporting Files */,
+			);
+			path = LummoxGeometry;
+			sourceTree = "<group>";
+		};
+		2748F84718EF4C9A00EE12F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2748F84818EF4C9A00EE12F3 /* LummoxGeometry-Info.plist */,
+				2748F84C18EF4C9A00EE12F3 /* main.m */,
+				2748F84E18EF4C9A00EE12F3 /* LummoxGeometry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2748F86518EF4C9A00EE12F3 /* LummoxGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				2748F92A18F0F43400EE12F3 /* LMXGeometryTests.m */,
+				2748F86618EF4C9A00EE12F3 /* Supporting Files */,
+			);
+			path = LummoxGeometryTests;
+			sourceTree = "<group>";
+		};
+		2748F86618EF4C9A00EE12F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2748F86718EF4C9A00EE12F3 /* LummoxGeometryTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2748F87518EF4D8600EE12F3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2748F87618EF4D8600EE12F3 /* LMXAppDelegate.h */,
+				2748F87718EF4D8600EE12F3 /* LMXAppDelegate.m */,
+				2748F87818EF4D8600EE12F3 /* LMXViewController.h */,
+				2748F87918EF4D8600EE12F3 /* LMXViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2748F87C18EF4D8E00EE12F3 /* LummoxGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				2748F87D18EF4E0D00EE12F3 /* LMXGeometry.h */,
+				2748F87E18EF4E0D00EE12F3 /* LMXGSpot.h */,
+				2748F87F18EF4E0D00EE12F3 /* LMXGSpot.m */,
+				2748F88018EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.h */,
+				2748F88118EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.m */,
+				2748F88218EF4E0D00EE12F3 /* LMXIntRect.h */,
+				2748F88318EF4E0D00EE12F3 /* LMXIntRect.m */,
+				2748F88418EF4E0D00EE12F3 /* LMXIntSize.h */,
+				2748F88518EF4E0D00EE12F3 /* LMXIntSize.m */,
+			);
+			path = LummoxGeometry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2748F83C18EF4C9A00EE12F3 /* LummoxGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2748F86F18EF4C9A00EE12F3 /* Build configuration list for PBXNativeTarget "LummoxGeometry" */;
+			buildPhases = (
+				2748F83918EF4C9A00EE12F3 /* Sources */,
+				2748F83A18EF4C9A00EE12F3 /* Frameworks */,
+				2748F83B18EF4C9A00EE12F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LummoxGeometry;
+			productName = LummoxGeometry;
+			productReference = 2748F83D18EF4C9A00EE12F3 /* LummoxGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2748F85D18EF4C9A00EE12F3 /* LummoxGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2748F87218EF4C9A00EE12F3 /* Build configuration list for PBXNativeTarget "LummoxGeometryTests" */;
+			buildPhases = (
+				2748F85A18EF4C9A00EE12F3 /* Sources */,
+				2748F85B18EF4C9A00EE12F3 /* Frameworks */,
+				2748F85C18EF4C9A00EE12F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2748F86418EF4C9A00EE12F3 /* PBXTargetDependency */,
+			);
+			name = LummoxGeometryTests;
+			productName = LummoxGeometryTests;
+			productReference = 2748F85E18EF4C9A00EE12F3 /* LummoxGeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2748F83518EF4C9A00EE12F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lummox Labs";
+				TargetAttributes = {
+					2748F85D18EF4C9A00EE12F3 = {
+						TestTargetID = 2748F83C18EF4C9A00EE12F3;
+					};
+				};
+			};
+			buildConfigurationList = 2748F83818EF4C9A00EE12F3 /* Build configuration list for PBXProject "LummoxGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2748F83418EF4C9A00EE12F3;
+			productRefGroup = 2748F83E18EF4C9A00EE12F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2748F83C18EF4C9A00EE12F3 /* LummoxGeometry */,
+				2748F85D18EF4C9A00EE12F3 /* LummoxGeometryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2748F83B18EF4C9A00EE12F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748F85C18EF4C9A00EE12F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2748F83918EF4C9A00EE12F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748F88818EF4E0D00EE12F3 /* LMXIntRect.m in Sources */,
+				2748F87A18EF4D8600EE12F3 /* LMXAppDelegate.m in Sources */,
+				2748F84D18EF4C9A00EE12F3 /* main.m in Sources */,
+				2748F88918EF4E0D00EE12F3 /* LMXIntSize.m in Sources */,
+				2748F88718EF4E0D00EE12F3 /* LMXGSpot+LMXUtilities.m in Sources */,
+				2748F88618EF4E0D00EE12F3 /* LMXGSpot.m in Sources */,
+				2748F87B18EF4D8600EE12F3 /* LMXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748F85A18EF4C9A00EE12F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748F92B18F0F43400EE12F3 /* LMXGeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2748F86418EF4C9A00EE12F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2748F83C18EF4C9A00EE12F3 /* LummoxGeometry */;
+			targetProxy = 2748F86318EF4C9A00EE12F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2748F86D18EF4C9A00EE12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2748F86E18EF4C9A00EE12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2748F87018EF4C9A00EE12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LummoxGeometry/LummoxGeometry-Prefix.pch";
+				INFOPLIST_FILE = "LummoxGeometry/LummoxGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2748F87118EF4C9A00EE12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LummoxGeometry/LummoxGeometry-Prefix.pch";
+				INFOPLIST_FILE = "LummoxGeometry/LummoxGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2748F87318EF4C9A00EE12F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LummoxGeometry.app/LummoxGeometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LummoxGeometry/LummoxGeometry-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LummoxGeometryTests/LummoxGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2748F87418EF4C9A00EE12F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LummoxGeometry.app/LummoxGeometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LummoxGeometry/LummoxGeometry-Prefix.pch";
+				INFOPLIST_FILE = "LummoxGeometryTests/LummoxGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2748F83818EF4C9A00EE12F3 /* Build configuration list for PBXProject "LummoxGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748F86D18EF4C9A00EE12F3 /* Debug */,
+				2748F86E18EF4C9A00EE12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2748F86F18EF4C9A00EE12F3 /* Build configuration list for PBXNativeTarget "LummoxGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748F87018EF4C9A00EE12F3 /* Debug */,
+				2748F87118EF4C9A00EE12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2748F87218EF4C9A00EE12F3 /* Build configuration list for PBXNativeTarget "LummoxGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748F87318EF4C9A00EE12F3 /* Debug */,
+				2748F87418EF4C9A00EE12F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2748F83518EF4C9A00EE12F3 /* Project object */;
+}
